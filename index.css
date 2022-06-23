@@ -1,0 +1,340 @@
+
+/* #region Content */
+
+body {
+  background-color: #f5f5f5;
+}
+
+html {
+}
+
+#page-content {
+}
+
+/* #endregion */
+
+/* #region Variables */
+
+:root {
+  --navbar-height: 60px;
+  --footer-height: 60px;
+  --menu-height: 230px;
+}
+
+/* #endregion */
+
+/* #region Marketing content */
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing  {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* #endregion */
+
+/* #region Featurettes */
+
+.featurette-divider {
+  margin: 0 0 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading-sm {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* #endregion */
+
+/* #region Price */
+
+.currency {
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+.units {
+  font-size: 1.7rem;
+  font-weight:normal;
+}
+
+.decimal {
+  position: relative;
+  padding-left: 0.1rem;
+  top: -0.5rem;
+  font-size: 1rem;
+}
+
+.currency-sm {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.units-sm {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.decimal-sm {
+    position: relative;
+    padding-left: 0.1rem;
+    top: -0.5rem;
+    font-size: 0.9rem;
+}
+
+/* #endregion */
+
+/* #region Responsive css */
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 3rem;
+  }
+}
+
+/* #endregion */
+
+/*#region Tags*/
+
+img.tag-circle {
+  height: 60px;
+  width: 60px;
+}
+
+.tag-circle {
+  font-size:22px;
+  height: 50px;
+  width: 50px;
+  cursor: default !important;
+}
+
+.tag-circle .fa-layers svg.svg-inline--fa {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+img.tag-sm-circle {
+  height: 40px;
+  width: 40px;
+}
+
+.tag-sm-circle {
+  font-size: 20px;
+  height: 48px;
+  width: 48px;
+  cursor: default !important;
+}
+
+.tag-sm-circle .fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+span.tags {
+  right: -15px;
+  top: -8px;
+  font-size: 50px;
+}
+
+/* #endregion */
+
+/* #region Badges */
+
+.badge-secondary-light {
+  background-color: #e4dfde;
+  color: black;
+}
+
+.badge-secondary-light:hover {
+  background-color: #e3e6ea;
+  color: black;
+}
+
+/* #endregion */
+
+/* #region Miscellaneous */
+
+.thin {
+  font-weight: 300;
+}
+
+.spandistance {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dropdown-menu-custom {
+  width: 200px !important;
+}
+
+.new-line-text {
+  white-space: pre-line;
+}
+
+/* #endregion */
+
+/* #region Tooltip (Green color) */
+
+.tooltip-inner {
+  background-color: white;
+  color: #339933;
+  border: 1px solid;
+}
+
+.tooltip.bs-tooltip-auto[x-placement=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #339933;
+}
+
+.tooltip.bs-tooltip-auto[x-placement=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #339933;
+}
+
+.tooltip.bs-tooltip-auto[x-placement=right] .arrow::before, .tooltip.bs-tooltip-right .arrow::before {
+  border-right-color: #339933;
+}
+
+.tooltip.bs-tooltip-auto[x-placement=left] .arrow::before, .tooltip.bs-tooltip-left .arrow::before {
+  border-left-color: #339933;
+}
+
+/* #endregion */
+
+/* #region Popover floating containers */
+
+/* on bottom */
+.floating-bottom-container {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  z-index: 20;
+}
+
+  .floating-bottom-container .alert {
+    display: inline-block;
+  }
+
+/* #endregion */
+
+/* #region Ratio images */
+
+.ratio-box {
+  position: relative;
+  height: 0;
+  padding-top: 100%; /*Ratio*/
+}
+
+.ratio-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-loading {
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  width: 100%;
+  height: 100%;
+}
+
+/*#endregion*/
+
+/*#region Status color*/
+
+.bg-Sold {
+  background-color: #ffc107 !important;
+  color: Black;
+  border-color: #ffc107 !important;
+}
+
+.bg-OnSale {
+  background-color: #339933 !important;
+  color: white;
+  border-color: #339933 !important;
+}
+
+.bg-Closed {
+  background-color: #808080 !important;
+  color: white;
+  border-color: #808080 !important;
+}
+
+.bg-Presentation {
+  color: #339933;
+  background-color: transparent;
+  background-image: none;
+  border-color: #339933;
+}
+
+.bg-ToConfirm {
+  background-color: #808080 !important;
+  color: white;
+  border-color: #808080 !important;
+}
+
+.bg-ToVerify {
+  background-color: #e0a800 !important;
+  color: black;
+  border-color: #e0a800 !important;
+}
+
+.bg-Removed {
+  background-color: red !important;
+  color: white;
+  border-color: red !important;
+  margin-bottom: 1rem;
+}
+
+/*#endregion*/
+
+/*#region Bootstrap customs*/
+
+.btn-light {
+  background-color: transparent;
+}
+
+.btn-group-xs-circle > .btn, .btn-xs-circle {
+  padding: .25rem .25rem;
+  font-size: .8rem;
+  line-height: .5;
+  height: 26px;
+  width: 26px;
+  border-radius: 1rem;
+}
+
+.lead-sm {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+/*#endregion*/

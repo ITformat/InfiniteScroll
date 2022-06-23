@@ -1,0 +1,126 @@
+{
+  "Items": [
+    {
+      "User": {
+        "NickName": "Marco",
+        "Image": { "Url": "./img/users/000084-Marco.jpg" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-man-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 99.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Maranello",
+        "District": "Modena"
+      },
+      "Image": { "Url": "./img/items/000003-01_Rivale 800 - 2015.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    },
+    {
+      "User": {
+        "NickName": "Jim",
+        "Image": { "Url": "./img/users/000077-Jim.jpg" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-man-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 199.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Kilmany",
+        "District": "United Kingdom"
+      },
+      "Image": { "Url": "./img/items/000031-01_Abarth 500.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    },
+    {
+      "User": {
+        "NickName": "Sarah",
+        "Image": { "Url": "./img/users/000305-Sarah.jpg" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-man-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 1000.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Torino",
+        "District": "Torino"
+      },
+      "Image": { "Url": "./img/items/000030-01_Mountain bike.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    },
+    {
+      "User": {
+        "NickName": "Marco",
+        "Image": { "Url": "./img/users/000084-Marco.jpg" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-man-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 99.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Maranello",
+        "District": "Modena"
+      },
+      "Image": { "Url": "./img/items/000132-07_Heroquest.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    },
+    {
+      "User": {
+        "NickName": "Mary",
+        "Image": { "Url": "./img/users/000289-Mary.jpg" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-woman-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 80.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Maranello",
+        "District": "Modena"
+      },
+      "Image": { "Url": "./img/items/000376-01_Macchina per espresso.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    },
+    {
+      "User": {
+        "NickName": "Lisa",
+        "Image": { "Url": "null" },
+        "ImageMiss": { "Url": "./img/users/default-avatar-woman-gray.svg" }
+      },
+      "Title": "Lorem ipsum",
+      "SubTitle": "dolor sit amet",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "StartPrice": 15.0,
+      "SearchTags": [ "#Lorem", "#ipsum", "#dolor", "#sit" ],
+      "RealAuctionStatusName": "OnSale",
+      "Tags": "#gavel",
+      "Place": {
+        "City": "Calenzano",
+        "District": "Firenze"
+      },
+      "Image": { "Url": "./img/items/000028-01_Chitarra per bambini.jpg" },
+      "ImageMiss": { "Url": "./img/items/not-available.svg" }
+    }
+  ],
+  "nextIndex": 1,
+  "rowsCount": 120
+}
