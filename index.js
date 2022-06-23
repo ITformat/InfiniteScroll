@@ -8,7 +8,7 @@ var $itemsFound = null;
 var $inputSearch = null;
 
 var _animationScroll = 500;
-var _maxPages = 5;
+var _maxPages = 20;
 
 // #endregion
 
